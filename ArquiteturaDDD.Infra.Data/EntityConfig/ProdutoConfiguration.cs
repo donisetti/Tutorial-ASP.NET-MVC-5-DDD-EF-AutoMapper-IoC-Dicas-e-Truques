@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace ArquiteturaDDD.Infra.Data.EntityConfig
 {
+
+    //Configuraçoes extras da entidade Produto
     public class ProdutoConfiguration : EntityTypeConfiguration<Produto>
     {
         public ProdutoConfiguration()

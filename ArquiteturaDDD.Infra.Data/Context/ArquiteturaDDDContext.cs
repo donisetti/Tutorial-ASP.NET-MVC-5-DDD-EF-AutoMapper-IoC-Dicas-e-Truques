@@ -36,7 +36,7 @@ namespace ArquiteturaDDD.Infra.Data.Context
                 .Configure(p => p.HasColumnType("varchar"));//Configura as strings como varchar
 
             modelBuilder.Properties<string>()
-                .Configure(p => p.HasMaxLength(100));//Configura um padrao de 100
+                .Configure(p => p.HasMaxLength(100));//Configura o maximo de caracteres para 100
 
 
             modelBuilder.Configurations.Add(new ClienteConfiguration());//Adiciona as configuraçoes extras da entidade cliente

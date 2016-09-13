@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ArquiteturaDDD.Infra.Data.EntityConfig
 {
-    //Configuração da entidade cliente
+    //Configuraçoes extras da entidade cliente
     public class ClienteConfiguration : EntityTypeConfiguration<Cliente>
     {
         public ClienteConfiguration()
