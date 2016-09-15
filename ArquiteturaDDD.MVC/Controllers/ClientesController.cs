@@ -1,4 +1,8 @@
-﻿using System;
+﻿using ArquiteturaDDD.Application.Interfaces;
+using ArquiteturaDDD.Domain.Entities;
+using ArquiteturaDDD.MVC.ViewModels;
+using AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,13 +12,20 @@ namespace ArquiteturaDDD.MVC.Controllers
 {
     public class ClientesController : Controller
     {
+        private readonly IClienteAppService _clienteAppService;
 
+        public ClientesController(IClienteAppService clienteAppService)
+        {
+
+            _clienteAppService = clienteAppService;
+        }
 
         //
         // GET: /Clientes/
         public ActionResult Index()
         {
-            return View();
+            var clienteViewModel = Mapper.Map<IEnumerable<Cliente>, IEnumerable<ClienteViewModel>>(_clienteAppService.GetAll());
+            return View(clienteViewModel);
         }
 
         //
@@ -34,18 +45,17 @@ namespace ArquiteturaDDD.MVC.Controllers
         //
         // POST: /Clientes/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(ClienteViewModel cliente)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add insert logic here
+                var clienteDomain = Mapper.Map<ClienteViewModel, Cliente>(cliente);
+                _clienteAppService.Add(clienteDomain);
 
                 return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            return View(cliente);
         }
 
         //

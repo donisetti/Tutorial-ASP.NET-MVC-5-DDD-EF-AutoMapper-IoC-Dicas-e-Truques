@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ArquiteturaDDD.Domain.Interfaces
+namespace ArquiteturaDDD.Domain.Interfaces.Services
 {
-    public interface IClienteRepository : IRepositoryBase<Cliente>
+    public interface IProdutoService : IServiceBase<Produto>
     {
+        IEnumerable<Produto> BuscarPorNome(string nome);
     }
 }

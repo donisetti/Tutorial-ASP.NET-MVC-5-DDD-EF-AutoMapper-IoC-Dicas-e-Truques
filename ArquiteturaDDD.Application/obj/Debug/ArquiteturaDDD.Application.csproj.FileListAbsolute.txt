@@ -1,4 +1,7 @@
-c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\bin\Debug\ArquiteturaDDD.Application.dll
-c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\bin\Debug\ArquiteturaDDD.Application.pdb
-c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\obj\Debug\ArquiteturaDDD.Application.dll
-c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\obj\Debug\ArquiteturaDDD.Application.pdb
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\bin\Debug\ArquiteturaDDD.Application.dll
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\bin\Debug\ArquiteturaDDD.Application.pdb
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\obj\Debug\ArquiteturaDDD.Application.dll
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\obj\Debug\ArquiteturaDDD.Application.pdb
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\obj\Debug\ArquiteturaDDD.Application.csprojResolveAssemblyReference.cache
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\bin\Debug\ArquiteturaDDD.Domain.dll
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Application\bin\Debug\ArquiteturaDDD.Domain.pdb

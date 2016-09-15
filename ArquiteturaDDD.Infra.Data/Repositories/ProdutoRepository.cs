@@ -1,5 +1,6 @@
 ﻿using ArquiteturaDDD.Domain.Entities;
 using ArquiteturaDDD.Domain.Interfaces;
+using ArquiteturaDDD.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

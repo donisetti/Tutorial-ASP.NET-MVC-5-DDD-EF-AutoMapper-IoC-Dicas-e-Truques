@@ -1,4 +1,5 @@
 ﻿using ArquiteturaDDD.Domain.Interfaces;
+using ArquiteturaDDD.Domain.Interfaces.Repositories;
 using ArquiteturaDDD.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
