@@ -2,3 +2,4 @@ c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\Arquitetu
 c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Domain\bin\Debug\ArquiteturaDDD.Domain.pdb
 c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Domain\obj\Debug\ArquiteturaDDD.Domain.dll
 c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Domain\obj\Debug\ArquiteturaDDD.Domain.pdb
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.Domain\obj\Debug\ArquiteturaDDD.Domain.csprojResolveAssemblyReference.cache

@@ -24,3 +24,7 @@ c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\Arquitetu
 c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.MVC\obj\Debug\ArquiteturaDDD.MVC.csprojResolveAssemblyReference.cache
 c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.MVC\obj\Debug\ArquiteturaDDD.MVC.dll
 c:\users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.MVC\obj\Debug\ArquiteturaDDD.MVC.pdb
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.MVC\bin\ArquiteturaDDD.Domain.dll
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.MVC\bin\AutoMapper.dll
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.MVC\bin\ArquiteturaDDD.Domain.pdb
+C:\Users\re034183\documents\visual studio 2013\Projects\ArquiteturaDDD\ArquiteturaDDD.MVC\bin\AutoMapper.xml
